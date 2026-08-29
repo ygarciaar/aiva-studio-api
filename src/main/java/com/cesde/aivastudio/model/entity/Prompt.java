@@ -37,4 +37,9 @@ public class Prompt extends BaseEntity {
 
     @OneToOne(mappedBy = "prompt")
     private GeneracionVideo generacionVideo;
+
+    @Override
+    public Boolean getEstadoActivo() {
+        return super.getEstadoActivo();
+    }
 }
