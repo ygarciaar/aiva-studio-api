@@ -1,5 +1,9 @@
 package com.cesde.aivastudio.model.enums;
 
-public class EstadoVideo {
+public enum EstadoVideo {
 
+    PENDIENTE,
+    PROCESANDO,
+    GENERADO,
+    ERROR
 }
